@@ -1,0 +1,40 @@
+{
+    "id": "sdm-erk",
+    "title": "Synthetic Dream Machine: Eternal Return Key",
+    "description": "A light implementation of Synthetic Dream Machine: Eternal Return Key",
+    "version": "1.0.0",
+    "license": "./LICENSE",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "authors": [
+        {
+            "name": "JLS",
+            "url": "https://github.com/scicluna/erk-fvtt",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "erk.js"
+    ],
+    "scripts": [
+
+    ],
+    "styles": [
+        "style.css"
+    ],
+    "grid": {
+        "distance": 5,
+        "units": "ft",
+        "diagonals": 4
+    },
+    "documentTypes": {
+        "RegionBehavior": {
+            "environment": {},
+            "environmentFeature": {}
+        }
+    },
+      "packs": [],
+      "packFolders": []
+}
